@@ -1,0 +1,57 @@
+.navbar-light .navbar-brand {
+    color: #07a3bd !important;
+}
+
+.logo-text {
+    font-size: 3vw;
+    font-family: fantasy;
+    text-shadow: 2px 2px #ccff00;
+    padding: 15px;
+}
+
+.navbar-nav li a {
+    /* font-family: fantasy !important; */
+    /* font-size: 1.1rem !important; */
+}
+
+.navbar-collapse li a {
+    /* color: #247d11 !important; */
+    color: #fff !important;
+    font-family: cursive !important;
+    /* text-shadow: 2px 2px #c1fd45; */
+    text-shadow: none !important;
+    /* font-size: 0.85rem !important; */
+}
+
+.navbar-collapse li a:hover {
+    /* color: #247d11 !important; */
+    color: #07a3bd !important;
+    font-family: cursive !important;
+    /* text-shadow: 2px 2px #c1fd45; */
+    text-shadow: none !important;
+    /* font-size: 0.85rem !important; */
+}
+
+.dropdown-menu {
+    background: #FDFC47;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #67dff3, #FDFC47);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #67dff3, #FDFC47);
+    font-size: smaller !important;
+    font-family: cursive !important;
+    width: fit-content !important;
+}
+
+.dropdown-item {
+    color: #07a3bd !important;
+}
+
+.dropdown-item:hover {
+    color: #fff !important;
+    background-color: #67dff3 !important;
+}
+
+.dropdown-divider {
+    border-top: 1px solid #f5fc47 !important;
+}

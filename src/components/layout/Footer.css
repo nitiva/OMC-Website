@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    color: #fff;
+    /* background: rgba(25, 117, 19, 0.96) !important; */
+    /* background: #67dff3; */
+    background: #FDFC47;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #67dff3, #FDFC47);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #67dff3, #FDFC47);
+    padding: 10px
+}
+
+.title-widget {
+    color: #07a3bd !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    list-style: none;
+}
+
+.footer-widget li {
+    list-style: none;
+    text-align: left;
+}
+
+.footer a {
+    color: #fff !important;
+}
+
+.footer a:hover {
+    color: #fcfc49 !important;
+}
+
+.footer address {
+    color: #07a3bd;
+}
