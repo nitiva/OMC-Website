@@ -14,10 +14,10 @@ const Footer = () => {
                     <Col md="3">
                         <ul className="footer-widget">
                             <li className="title-widget"><i className="shadow-text fa fa-square"></i> Sitemap</li>
-                            <Link to="/"><li><i className="fa fa-angle-double-right"></i> History</li></Link>
-                            <Link to="/"><li><i className="fa fa-angle-double-right"></i> Primary School</li></Link>
-                            <Link to="/"><li><i className="fa fa-angle-double-right"></i> Secondary School</li></Link>
-                            <Link to="/"><li><i className="fa fa-angle-double-right"></i> IJMB</li></Link>
+                            <Link to="/history"><li><i className="fa fa-angle-double-right"></i> History</li></Link>
+                            <Link to="/primary"><li><i className="fa fa-angle-double-right"></i> Primary School</li></Link>
+                            <Link to="/secondary"><li><i className="fa fa-angle-double-right"></i> Secondary School</li></Link>
+                            <Link to="/ijmb"><li><i className="fa fa-angle-double-right"></i> IJMB</li></Link>
                             <Link to="/"><li><i className="fa fa-angle-double-right"></i> Admission</li></Link>
                             <Link to="/"><li><i className="fa fa-angle-double-right"></i> Career</li></Link>
                         </ul>
@@ -27,6 +27,8 @@ const Footer = () => {
                             <li className="title-widget"><i className="shadow-text fa fa-square"></i> Useful Links</li>
                             <Link to="https://kwarastate.gov.ng/ministry-of-education-science-and-technology/"><li><i className="fa fa-globe"></i> Kwara State Min of Education</li></Link>
                             <Link to="http://education.gov.ng/"><li><i className="fa fa-globe"></i> Federal Ministry of Education</li></Link>
+                            <Link to="https://www.neco.gov.ng/"><li><i className="fa fa-globe"></i> NECO</li></Link>
+                            <Link to="http://www.waecnigeria.org/"><li><i className="fa fa-globe"></i> WAEC</li></Link>
                         </ul>
                     </Col>
                     <Col md="3">
@@ -46,7 +48,7 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-            <span className="pull-right omc-knicker"><small><sup>Powered By</sup> Mutems Technologies</small></span>
+            {/* <span className="pull-right omc-knicker"><small><sup>Powered By</sup> Mutems Technologies</small></span> */}
         </footer>
     )
 }

@@ -45,3 +45,33 @@ a:hover {
 .omc-knicker {
     color: #07a3bd !important;
 }
+
+.main-panel {
+    border: solid 1px darkgrey;
+    box-shadow: 3px 3px #d8caca;
+    padding: 30px;
+    margin: 40px;
+    position: relative;
+}
+
+.header-001 {
+    font-size: 2rem;
+    color: #07a3bd;
+    font-family: cursive;
+}
+
+.header-002 {
+    font-size: 1.5rem;
+    color: #07a3bd;
+    font-family: cursive;
+}
+
+.header-003 {
+    font-size: 1rem;
+    color: #07a3bd;
+    font-family: cursive;
+}
+
+.side-image {
+    height: 180px;
+}

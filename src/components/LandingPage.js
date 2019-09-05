@@ -1,9 +1,10 @@
 import React from 'react';
 
 const LandingPage = () => {
+  const bg_image = process.env.PUBLIC_URL + '/images/landing.jpg';
   return (
-    <div style={{minHeight:"600px"}}>
-      <h1>I AM LANDING HERE</h1>
+    <div style={{minHeight:"650px", backgroundImage:"url(" + bg_image + ")", backgroundPosition:"center",backgroundSize:"cover",backgroundRepeat:"no-repeat"}}>
+    hhh
     </div>
   )
 }

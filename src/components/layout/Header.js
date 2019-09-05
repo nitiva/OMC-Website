@@ -13,6 +13,7 @@ import {
     DropdownMenu,
     DropdownItem
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -20,19 +21,19 @@ const Header = () => {
 
     return (
         <Navbar color="light" light expand="md" className="Header-background">
-        <div style={{width:"100%",background:"#67dff3",top:"0",position:"absolute",height:"3%"}}></div>
+            <div style={{ width: "100%", background: "#67dff3", top: "0", position: "absolute", height: "3%" }}></div>
             <NavbarBrand href="/">
-            {/* <img src={process.env.PUBLIC_URL + '/images/omc_logo.png'} width="90px" height="50px" alt="omc logo" /> */}
-            <span className="logo-text">OMOWUMI MODEL SCHOOL</span>
+                {/* <img src={process.env.PUBLIC_URL + '/images/omc_logo.png'} width="90px" height="50px" alt="omc logo" /> */}
+                <span className="logo-text">OMOWUMI MODEL SCHOOL</span>
             </NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <NavLink href="/components/">HOME</NavLink>
+                        <NavLink href="/">HOME</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="https://github.com/reactstrap/reactstrap">HISTORY</NavLink>
+                        <NavLink href="/history">HISTORY</NavLink>
                     </NavItem>
                     <UncontrolledDropdown nav inNavbar>
                         <DropdownToggle nav caret>
@@ -40,14 +41,14 @@ const Header = () => {
                         </DropdownToggle>
                         <DropdownMenu right>
                             <DropdownItem>
-                                PRIMARY SCHOOL
+                                <Link to="/primary">PRIMARY SCHOOL</Link>
                             </DropdownItem>
                             <DropdownItem>
-                                SECONDARY SCHOOL
+                                <Link to="/secondary">SECONDARY SCHOOL</Link>
                             </DropdownItem>
                             <DropdownItem divider />
                             <DropdownItem>
-                                IJMB PROGRAM
+                            <Link to="/ijmb">IJMB PROGRAM</Link>
                             </DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>

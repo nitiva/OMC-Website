@@ -55,3 +55,11 @@
 .dropdown-divider {
     border-top: 1px solid #f5fc47 !important;
 }
+
+.navbar-collapse li button a {
+    color: #07a3bd !important;
+}
+
+.navbar-collapse li button a:hover {
+    color: #fff !important;
+}
