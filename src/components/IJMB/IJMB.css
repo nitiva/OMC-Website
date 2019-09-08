@@ -1,0 +1,12 @@
+.ijmb-side {
+    margin-top: 40px;
+}
+
+.ijmb-side ul a {
+    color: #212529 !important;
+}
+
+.ijmb-side ul a li:hover {
+    color: #fff !important;
+    background: #6ee0ebbf !important;
+}

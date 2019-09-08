@@ -13,7 +13,8 @@ function App() {
           <Switch>
             {
               appRoutes.map((obj, index) => {
-                return <Route {...obj} key={index} />
+                /*return <Route {...obj} key={index} />*/
+                return <Route key={index} exact path={obj.path} component={obj.component} />
               })
             }
           </Switch>
