@@ -50,8 +50,12 @@ a:hover {
     border: solid 1px darkgrey;
     box-shadow: 3px 3px #d8caca;
     padding: 30px;
-    margin: 40px;
+    margin: 40px 0px;
     position: relative;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .header-001 {

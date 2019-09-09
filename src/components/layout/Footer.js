@@ -29,6 +29,7 @@ const Footer = () => {
                             <Link to="http://education.gov.ng/"><li><i className="fa fa-globe"></i> Federal Ministry of Education</li></Link>
                             <Link to="https://www.neco.gov.ng/"><li><i className="fa fa-globe"></i> NECO</li></Link>
                             <Link to="http://www.waecnigeria.org/"><li><i className="fa fa-globe"></i> WAEC</li></Link>
+                            <Link to="https://www.ijmb.org.ng"><li><i className="fa fa-globe"></i> IJMB</li></Link>
                         </ul>
                     </Col>
                     <Col md="3">

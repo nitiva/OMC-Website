@@ -53,7 +53,7 @@ const Header = () => {
                         </DropdownMenu>
                     </UncontrolledDropdown>
                     <NavItem>
-                        <NavLink href="https://github.com/reactstrap/reactstrap">ADMISSION</NavLink>
+                        <NavLink href="/admission/primary">ADMISSION</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href="https://github.com/reactstrap/reactstrap">VISIT US</NavLink>

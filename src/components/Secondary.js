@@ -7,7 +7,7 @@ const Secondary = () => {
     return (
         <Container>
             <Row>
-                <Col sm="12" md={{ size: 8 }}>
+                <Col sm="12" md={{ size: 9 }}>
                     <div className="main-panel">
                         <p className="header-001">Secondary School</p>
                         <p>The secondary school have a total number of *** classes, approximately *** students and *** staffs.</p>
@@ -64,7 +64,7 @@ const Secondary = () => {
                         </Table>
                     </div>
                 </Col>
-                <Col sm="12" md="4">
+                <Col sm="12" md="3">
                     <div className="main-panel">
                         <div className="side-image" style={{ backgroundImage: "url(" + head_mistress + ")", backgroundPosition: "center", backgroundSize: "contain", backgroundRepeat: "no-repeat" }}></div>
                         <p className="header-003" style={{ textAlign: "center" }}> Mr Oyebamiji</p>
