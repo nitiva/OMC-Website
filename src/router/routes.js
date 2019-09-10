@@ -8,7 +8,10 @@ import IJMBacademics from '../components/IJMB/IJMBacademics';
 import IJMBstructure from '../components/IJMB/IJMBstructure';
 import MissionVision from '../components/IJMB/MissionVision';
 import Staffs from '../components/IJMB/Staffs';
+
 import AdmissionPrimary from '../components/admission/AdmissionPrimary';
+import AdmissionSecondary from '../components/admission/AdmissionSecondary';
+import AdmissionIJMB from '../components/admission/AdmissionIJMB';
 
 
 const appRoutes = [
@@ -52,6 +55,14 @@ const appRoutes = [
     {
         path: "/admission/primary",
         component: AdmissionPrimary
+    },
+    {
+        path: "/admission/secondary",
+        component: AdmissionSecondary
+    },
+    {
+        path: "/admission/ijmb",
+        component: AdmissionIJMB
     },
 ]
 export default appRoutes;

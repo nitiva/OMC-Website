@@ -6,9 +6,9 @@ const AdmissionSidenav = () => {
     return (
         <Col sm="12" md={{ size: 3 }} className="ijmb-side">
             <ListGroup>
-                <Link to="/ijmb"><ListGroupItem>Primary School</ListGroupItem></Link>
-                <Link to="/ijmb/mission"><ListGroupItem>Secondary School</ListGroupItem></Link>
-                <Link to="/ijmb/staffs"><ListGroupItem>IJMB</ListGroupItem></Link>
+                <Link to="/admission/primary"><ListGroupItem>Primary School</ListGroupItem></Link>
+                <Link to="/admission/secondary"><ListGroupItem>Secondary School</ListGroupItem></Link>
+                <Link to="/admission/ijmb"><ListGroupItem>IJMB</ListGroupItem></Link>
             </ListGroup>
         </Col>
     )
