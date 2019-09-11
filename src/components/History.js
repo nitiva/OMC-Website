@@ -28,7 +28,7 @@ const History = () => {
                     <p>With a total staff strength of ***, busses to convey students and staffs of the school, science laboratories, ICT laboratory, playground and other facilities to enhance the studens both academically and psycologically.</p>
                     
                     <p className="header-001">NECO / WAEC</p>
-                    <p>In the year ****, the school was visited by the accreditation team of the National Examination Council, a body responsible for conducting the Junior and the Senior Secondary Certificate Examination in Nigeria and granted the approval to present her students for the NECO exam. 
+                    <p>In the year 2013, the school was visited by the accreditation team of the National Examination Council, a body responsible for conducting the Junior and the Senior Secondary Certificate Examination in Nigeria and granted the approval to present her students for the NECO exam. 
                     The West Africa Examination Council, a body which conducts the examinations and award certificates comparable to those of equivalent examining authorities internationally also granted the school approval in the following year.</p>
                     </div>
                 </Col>

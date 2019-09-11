@@ -56,7 +56,7 @@ const Header = () => {
                         <NavLink href="/admission/primary">ADMISSION</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="https://github.com/reactstrap/reactstrap">VISIT US</NavLink>
+                        <NavLink href="/visit-us">VISIT US</NavLink>
                     </NavItem>
                 </Nav>
             </Collapse>

@@ -13,6 +13,7 @@ import AdmissionPrimary from '../components/admission/AdmissionPrimary';
 import AdmissionSecondary from '../components/admission/AdmissionSecondary';
 import AdmissionIJMB from '../components/admission/AdmissionIJMB';
 
+import VisitUs from '../components/VisitUs'
 
 const appRoutes = [
     {
@@ -63,6 +64,10 @@ const appRoutes = [
     {
         path: "/admission/ijmb",
         component: AdmissionIJMB
+    },
+    {
+        path: "/visit-us",
+        component: VisitUs
     },
 ]
 export default appRoutes;
