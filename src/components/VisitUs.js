@@ -36,7 +36,7 @@ const VisitUs = () => {
                 <Col sm="12" md={{ size: 5 }}>
                     <div className="main-panel" style={{ padding: "0" }}>
                         <MapLoader
-                            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDurZQBXjtSzKeieXwtFeGe-jhZu-HEGQU"
+                            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7EISCmYTXbrGf23Dpd-LQB_bJM5jLe0A"
                             loadingElement={<div style={{ height: `100%` }} />}
                         />
                     </div>
