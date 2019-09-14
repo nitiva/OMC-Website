@@ -1,7 +1,7 @@
 import React from 'react';
 import { withScriptjs } from "react-google-maps";
 import Map from './helper/Map';
-import { Container, Row, Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Container, Row, Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 const VisitUs = () => {
     const MapLoader = withScriptjs(Map);
