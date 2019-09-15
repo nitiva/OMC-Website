@@ -37,8 +37,8 @@ class Map extends Component {
   render() {
     const GoogleMapExample = withGoogleMap(props => (
       <GoogleMap
-        defaultCenter={{ lat: 40.756795, lng: -73.954298 }}
-        defaultZoom={13}
+        defaultCenter={{ lat: 8.532404, lng: 4.5480484 }}
+        defaultZoom={15}
       >
         <DirectionsRenderer
           directions={this.state.directions}
