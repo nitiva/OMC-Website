@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {
+  Container,
   Carousel,
   CarouselItem,
   CarouselControl,
@@ -86,14 +87,15 @@ class LandingPage extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} width="100%"  height="450px"/>
+          <img src={item.src} alt={item.altText} width="100%"  height="600px"/>
           <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </CarouselItem>
       );
     });
 
     return (
-      <Carousel
+      <Container fluid>
+              <Carousel
         activeIndex={activeIndex}
         next={this.next}
         previous={this.previous}
@@ -103,6 +105,7 @@ class LandingPage extends Component {
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
       </Carousel>
+      </Container>
     );
   }
 }
