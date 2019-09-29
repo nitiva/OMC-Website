@@ -23,7 +23,7 @@ const Header = () => {
         <Navbar color="light" light expand="md" className="Header-background">
             <div style={{ width: "100%", background: "#67dff3", top: "0", position: "absolute", height: "3%" }}></div>
             <NavbarBrand href="/">
-                {/* <img src={process.env.PUBLIC_URL + '/images/omc_logo.png'} width="90px" height="50px" alt="omc logo" /> */}
+                {/* <img src={process.env.PUBLIC_URL + '/images/omc_logo.png'} width="60px" height="80px" alt="omc logo" /> */}
                 <span className="logo-text">OMOWUMI GROUP OF SCHOOLS</span>
             </NavbarBrand>
             <NavbarToggler onClick={toggle} />
