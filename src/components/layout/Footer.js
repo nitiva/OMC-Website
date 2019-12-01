@@ -18,7 +18,7 @@ const Footer = () => {
                             <Link to="/primary"><li><i className="fa fa-angle-double-right"></i> Primary School</li></Link>
                             <Link to="/secondary"><li><i className="fa fa-angle-double-right"></i> Secondary School</li></Link>
                             <Link to="/ijmb"><li><i className="fa fa-angle-double-right"></i> IJMB</li></Link>
-                            <Link to="/admission"><li><i className="fa fa-angle-double-right"></i> Admission</li></Link>
+                            <Link to="/admission/primary"><li><i className="fa fa-angle-double-right"></i> Admission</li></Link>
                             <Link to="/"><li><i className="fa fa-angle-double-right"></i> Career</li></Link>
                         </ul>
                     </Col>
