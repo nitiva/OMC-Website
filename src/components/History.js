@@ -25,7 +25,7 @@ const History = () => {
                     <p>Situated in the capital of Kwara State, precisely in Ilorin East Local Government of the state. Omowumi Model School is located in the residential Ganiki area of Sango, a landmark in Ilorin metropolis.</p>
                     <p>With a relative distance to the Kwara State Polytechnic, a mobile police barrack to the south and having the Muyideen College of Education about 10 miles its west, the environment is serene, safe and conducive for academic learning.</p>
                     <p>Presently, The school has 20 blocks of classroom for the College and 22 blocks of class rooms for the primary school.</p>
-                    <p>With a total staff strength of ***, busses to convey students and staffs of the school, science laboratories, ICT laboratory, playground and other facilities to enhance the studens both academically and psycologically.</p>
+                    <p>With a total staff strength of 45 qualified academic and non-academic staffs, busses to convey students and staffs of the school, science laboratories, ICT laboratory, playground and other facilities to enhance the studens both academically and psycologically.</p>
                     
                     <p className="header-001">NECO / WAEC</p>
                     <p>In the year 2013, the school was visited by the accreditation team of the National Examination Council, a body responsible for conducting the Junior and the Senior Secondary Certificate Examination in Nigeria and granted the approval to present her students for the NECO exam. 
