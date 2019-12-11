@@ -8,7 +8,7 @@ const AdmissionSidenav = () => {
             <ListGroup>
                 <Link to="/admission/primary"><ListGroupItem>Primary School</ListGroupItem></Link>
                 <Link to="/admission/secondary"><ListGroupItem>Secondary School</ListGroupItem></Link>
-                <Link to="/admission/ijmb"><ListGroupItem>IJMB</ListGroupItem></Link>
+                <Link to="/admission/ijmb"><ListGroupItem>IJMB/JUPEB</ListGroupItem></Link>
             </ListGroup>
         </Col>
     )
