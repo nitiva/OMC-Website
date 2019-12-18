@@ -6,7 +6,7 @@ const IJMBsidenav = () => {
     return (
         <Col sm="12" md={{ size: 3 }} className="ijmb-side">
             <ListGroup>
-                <Link to="/ijmb"><ListGroupItem>IJMB Progam</ListGroupItem></Link>
+                <Link to="/ijmb"><ListGroupItem>IJMB /JUPEB Progam</ListGroupItem></Link>
                 <Link to="/ijmb/mission"><ListGroupItem>Vision & Mission</ListGroupItem></Link>
                 <Link to="/ijmb/staffs"><ListGroupItem>Source of Academic Staffs</ListGroupItem></Link>
                 <Link to="/ijmb/structure"><ListGroupItem>Structure</ListGroupItem></Link>

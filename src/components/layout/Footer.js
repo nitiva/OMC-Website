@@ -25,11 +25,11 @@ const Footer = () => {
                     <Col md="4">
                         <ul className="footer-widget">
                             <li className="title-widget"><i className="shadow-text fa fa-square"></i> Useful Links</li>
-                            <Link to="https://kwarastate.gov.ng/ministry-of-education-science-and-technology/"><li><i className="fa fa-globe"></i> Kwara State Min of Education</li></Link>
-                            <Link to="http://education.gov.ng/"><li><i className="fa fa-globe"></i> Federal Ministry of Education</li></Link>
-                            <Link to="https://www.neco.gov.ng/"><li><i className="fa fa-globe"></i> NECO</li></Link>
-                            <Link to="http://www.waecnigeria.org/"><li><i className="fa fa-globe"></i> WAEC</li></Link>
-                            <Link to="https://www.ijmb.org.ng"><li><i className="fa fa-globe"></i> IJMB</li></Link>
+                            <a href="https://kwarastate.gov.ng/ministry-of-education-science-and-technology/" target="_blank" rel="noopener noreferrer"><li><i className="fa fa-globe"></i> Kwara State Min of Education</li></a>
+                            <a href="http://education.gov.ng/" target="_blank" rel="noopener noreferrer"><li><i className="fa fa-globe"></i> Federal Ministry of Education</li></a>
+                            <a href="https://www.neco.gov.ng/" target="_blank" rel="noopener noreferrer"><li><i className="fa fa-globe"></i> NECO</li></a>
+                            <a href="http://www.waecnigeria.org/" target="_blank" rel="noopener noreferrer"><li><i className="fa fa-globe"></i> WAEC</li></a>
+                            <a href="https://www.ijmb.org.ng" target="_blank" rel="noopener noreferrer"><li><i className="fa fa-globe"></i> IJMB</li></a>
                         </ul>
                     </Col>
                     <Col md="3">

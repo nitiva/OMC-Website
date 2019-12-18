@@ -10,36 +10,26 @@ import {
 
 const bg_image0 = process.env.PUBLIC_URL + '/images/landing0.jpeg';
 const bg_image1 = process.env.PUBLIC_URL + '/images/landing1.jpeg';
-const bg_image2 = process.env.PUBLIC_URL + '/images/landing2.jpeg';
-const bg_image3 = process.env.PUBLIC_URL + '/images/landing3.jpeg';
-const bg_image4 = process.env.PUBLIC_URL + '/images/landing4.jpeg';
+const bg_image2 = process.env.PUBLIC_URL + '/images/landing4.jpeg';
+
 const items = [
   {
     src: bg_image0,
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    altText: 'Chemistry Laboratory',
+    caption: 'Chemistry Laboratory'
   },
   {
     src: bg_image1,
     altText: 'Slide 2',
-    caption: 'Slide 2'
+    caption: 'Biology Laboratory'
   },
   {
     src: bg_image2,    
     altText: 'Slide 3',
-    caption: 'Slide 3'
-  },
-  {
-    src: bg_image3,    
-    altText: 'Slide 3',
-    caption: 'Slide 3'
-  },
-  {
-    src: bg_image4,    
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    caption: 'Student Life '
   }
 ];
+
 
 class LandingPage extends Component {
   constructor(props) {

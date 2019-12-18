@@ -9,7 +9,7 @@ const AdmissionIJMB = () => {
                 <IJMBsidenav />
                 <Col sm="12" md={{ size: 9 }}>
                     <div className="main-panel">
-                        <p className="header-001">Admission Requirement for IJMB</p>
+                        <p className="header-001">Admission Requirement for IJMB / JUPEB</p>
                         <p>The programme is open to all candidates nationwide and any curse can be offered, be it Science, Art or Social Science.</p>
                         <p>The basic requirements are as follow</p>
                         <ul>

@@ -29,7 +29,7 @@ const Primary = () => {
                     <Col sm="12" md="3">
                         <div className="main-panel">
                             <div className="side-image" style={{ backgroundImage: "url(" + head_mistress + ")", backgroundPosition: "center", backgroundSize: "contain", backgroundRepeat: "no-repeat" }}></div>
-                            <p className="header-003" style={{ textAlign: "center" }}>Mrs ****** *******</p>
+                            <p className="header-003" style={{ textAlign: "center" }}>Mrs Mustapha</p>
                             <p className="header-002" style={{ textAlign: "center" }}>Head Mistress</p>
                         </div>
                     </Col>

@@ -48,7 +48,7 @@ const Header = () => {
                             </DropdownItem>
                             <DropdownItem divider />
                             <DropdownItem>
-                            <Link to="/ijmb">IJMB PROGRAM</Link>
+                            <Link to="/ijmb">IJMB / JUPEB PROGRAM</Link>
                             </DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>

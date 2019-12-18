@@ -1,81 +1,94 @@
-.App {
-    text-align: center;
-}
-
-.Header-background {
-    background: #FDFC47;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FDFC47, #67dff3);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FDFC47, #67dff3);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-}
-
-.navbar {
-    padding: 0 !important;
-}
-
-a {
-    color: #fff !important;
-    font-family: cursive;
-}
-
-a:hover {
-    color: #c1fd45 !important;
-    font-family: cursive !important;
-    text-decoration: none !important;
-}
-
-.shadow-text {
-    color: #07a3bd !important;
-    text-shadow: 2px 2px #ccff00;
-}
-
-.omc-knicker {
-    color: #07a3bd !important;
-}
-
-.main-panel {
-    border: solid 1px darkgrey;
-    box-shadow: 3px 3px #d8caca;
-    padding: 30px;
-    margin: 40px 0px;
-    position: relative;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.header-001 {
-    font-size: 2rem;
-    color: #07a3bd;
-    font-family: cursive;
-}
-
-.header-002 {
-    font-size: 1.5rem;
-    color: #07a3bd;
-    font-family: cursive;
-}
-
-.header-003 {
-    font-size: 1rem;
-    color: #07a3bd;
-    font-family: cursive;
-}
-
-.side-image {
-    height: 180px;
-}
+        .App {
+            text-align: center;
+        }
+        
+        .Header-background {
+            background: #FDFC47;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FDFC47, #67dff3);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FDFC47, #67dff3);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        
+        .App-header {
+            background-color: #282c34;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: calc(10px + 2vmin);
+            color: white;
+        }
+        
+        .navbar {
+            padding: 0 !important;
+        }
+        
+        a {
+            color: #fff !important;
+            font-family: cursive;
+        }
+        
+        a:hover {
+            color: #c1fd45 !important;
+            font-family: cursive !important;
+            text-decoration: none !important;
+        }
+        
+        .shadow-text {
+            color: #07a3bd !important;
+            text-shadow: 2px 2px #ccff00;
+        }
+        
+        .omc-knicker {
+            color: #07a3bd !important;
+        }
+        
+        .main-panel {
+            border: solid 1px darkgrey;
+            box-shadow: 3px 3px #d8caca;
+            padding: 30px;
+            margin: 40px 0px;
+            position: relative;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .header-001 {
+            font-size: 2rem;
+            color: #07a3bd;
+            font-family: cursive;
+        }
+        
+        .header-002 {
+            font-size: 1.5rem;
+            color: #07a3bd;
+            font-family: cursive;
+        }
+        
+        .header-003 {
+            font-size: 1rem;
+            color: #07a3bd;
+            font-family: cursive;
+        }
+        
+        .side-image {
+            height: 180px;
+        }
+        
+        .carousel-caption {
+            right: 0 !important;
+            left: 0 !important;
+            bottom: 0 !important;
+            width: 100%;
+            background: rgba(219, 246, 111, 0.4);
+            color: #07a3bd !important;
+        }
+        
+        .carousel-item p {
+            display: none;
+        }
